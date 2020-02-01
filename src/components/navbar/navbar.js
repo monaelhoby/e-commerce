@@ -23,7 +23,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link className="nav-link ml-auto" to="/cart">
-                        <ButtonContainer><i className="fas fa-cart-plus"></i> Cart</ButtonContainer>
+                        <ButtonContainer><i className="fas fa-cart-plus"></i> Shopping Cart</ButtonContainer>
                     </Link>
                 </li>
                 </ul>
