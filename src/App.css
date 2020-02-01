@@ -1,38 +1,66 @@
+:root{
+  --mainColor : #DC5001;
+  --lightColor : #FF5000;
+  --mainWhite: #f3f3f3;
+  --darkColor : #232528;
+  --secondColor : #FA9C00
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Oswald', sans-serif;
+  background: var(--mainWhite) !important;
+  color: var(--darkColor) !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-title{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-second{
+  font-family: 'Raleway', sans-serif;
+  color: var(--mainColor) !important;
 }
-
-.App-link {
-  color: #61dafb;
+.text-bright{
+  color: var(--lightColor) !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cartIcon{
+  cursor: pointer;
+  font-size:22px;
+  color: var(--darkColor)
+}
+.cartIcon:hover{
+  color: var(--lightColor);
+}
+.count{
+  font-size: 18px;
+  border: 2px solid  var(--darkColor);
+  margin: 10px;
+  padding: 0 5px;
+  border-radius: 4px;
+}
+.remove{
+  color:var(--secondColor)
+}
+.remove:hover{
+  color:var(--darkColor)
+}
+.cart{
+  padding-top:60px;
+  padding-bottom:60px
+}
+.btn{
+  margin:30px auto
+}
+.btn:hover{
+  text-decoration: none !important;
+}
+.cartlist{
+  padding: 30px 10px 40px
+}
+.cart-btn:hover i,
+.cart-btn i:hover{
+  color:#FFF
 }
