@@ -3,6 +3,7 @@ import {StoreConsumer} from "../context_api";
 import styled from "styled-components";
 import {ButtonContainer} from "../navbar/style";
 import {Link} from "react-router-dom";
+import Actions from "../../store/actions";
 
 
 const Modal = () => {
@@ -21,10 +22,10 @@ const Modal = () => {
                                 <h5>{title}</h5>
                                 <h5 className="text-muted">Price : ${price}</h5>
                                 <Link to="/">
-                                  <ButtonContainer onClick={() => closeModal()}>All  Product</ButtonContainer>
+                                  <ButtonContainer onClick={() => value.dispatch(Actions.closeModalAction())}>All  Product</ButtonContainer>
                                 </Link>
                                 <Link to="/cart">
-                                  <ButtonContainer cart onClick={() => closeModal()}>Cart</ButtonContainer>
+                                  <ButtonContainer cart onClick={() => value.dispatch(Actions.closeModalAction())}>Cart</ButtonContainer>
                                 </Link>
                             </div>
                         </div>

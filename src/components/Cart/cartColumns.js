@@ -1,4 +1,5 @@
 import React from 'react';
+import Actions from "../../store/actions";
 
 
 const CartColumns = ({value}) => {
@@ -24,12 +25,12 @@ const CartColumns = ({value}) => {
                     <td>{product.title}</td>
                     <td>{product.price}</td>
                     <td>
-                        <i className="far fa-minus-square cartIcon" onClick={() => value.decrement(product.id)}></i>
+                        <i className="far fa-minus-square cartIcon" onClick={() => value.dispatch(Actions.decrementAction(product.id))}></i>
                             <span className="count">{product.count}</span>
-                        <i className="far fa-plus-square cartIcon" onClick={() => value.increment(product.id)}></i>
+                        <i className="far fa-plus-square cartIcon" onClick={() => value.dispatch(Actions.incrementAction(product.id))}></i>
                     </td>
                     <td>
-                        <i className="fas fa-trash-alt cartIcon remove" onClick={() => value.removeItem(product.id)}></i>
+                        <i className="fas fa-trash-alt cartIcon remove" onClick={() => value.dispatch(Actions.removeItemAction(product.id))}></i>
                     </td>
                     <td>{product.total}</td>
                 </tr>

@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {StoreConsumer} from "../context_api";
 import {ButtonContainer} from "../navbar/style";
+import Actions from "../../store/actions";
 
 
 const Details = () => {
@@ -29,7 +30,7 @@ const Details = () => {
                                     <Link to="/"><ButtonContainer>Back to product</ButtonContainer></Link>
                                     <ButtonContainer cart 
                                       disabled={inCart ? true : false} 
-                                      onClick={ () => {value.addToCart(id)}} >
+                                      onClick={ () => {value.dispatch(Actions.addToCartAction(id))}} >
                                     { inCart ? "in Cart" : "add to cart"}
                                     </ButtonContainer>
                                 </div>
