@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8b05a0e1fd2d3c2c9da5066bbaff738",
+    "revision": "567639ca4cd057c4c1ec10b6f1f8826e",
     "url": "/e-commerce/index.html"
   },
   {
-    "revision": "9bb852e0084bab3d80db",
+    "revision": "d9fc378410f7029959f7",
     "url": "/e-commerce/static/css/2.67123b20.chunk.css"
   },
   {
-    "revision": "edf872fcb02d590152ff",
+    "revision": "45bb7de729af13f1564b",
     "url": "/e-commerce/static/css/main.dc246f49.chunk.css"
   },
   {
-    "revision": "9bb852e0084bab3d80db",
-    "url": "/e-commerce/static/js/2.5593e211.chunk.js"
+    "revision": "d9fc378410f7029959f7",
+    "url": "/e-commerce/static/js/2.ca1aac9f.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/e-commerce/static/js/2.5593e211.chunk.js.LICENSE"
+    "url": "/e-commerce/static/js/2.ca1aac9f.chunk.js.LICENSE"
   },
   {
-    "revision": "edf872fcb02d590152ff",
-    "url": "/e-commerce/static/js/main.98d0589f.chunk.js"
+    "revision": "45bb7de729af13f1564b",
+    "url": "/e-commerce/static/js/main.b117590b.chunk.js"
   },
   {
     "revision": "533725173623eb9453f6",
