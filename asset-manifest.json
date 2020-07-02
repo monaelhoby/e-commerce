@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/e-commerce/static/css/main.dc246f49.chunk.css",
-    "main.js": "/e-commerce/static/js/main.b117590b.chunk.js",
-    "main.js.map": "/e-commerce/static/js/main.b117590b.chunk.js.map",
-    "runtime-main.js": "/e-commerce/static/js/runtime-main.53bcea4e.js",
-    "runtime-main.js.map": "/e-commerce/static/js/runtime-main.53bcea4e.js.map",
-    "static/css/2.67123b20.chunk.css": "/e-commerce/static/css/2.67123b20.chunk.css",
-    "static/js/2.ca1aac9f.chunk.js": "/e-commerce/static/js/2.ca1aac9f.chunk.js",
-    "static/js/2.ca1aac9f.chunk.js.map": "/e-commerce/static/js/2.ca1aac9f.chunk.js.map",
-    "index.html": "/e-commerce/index.html",
-    "precache-manifest.fd5350ecedad65620608f4fc18d91ddf.js": "/e-commerce/precache-manifest.fd5350ecedad65620608f4fc18d91ddf.js",
-    "service-worker.js": "/e-commerce/service-worker.js",
-    "static/css/2.67123b20.chunk.css.map": "/e-commerce/static/css/2.67123b20.chunk.css.map",
-    "static/css/main.dc246f49.chunk.css.map": "/e-commerce/static/css/main.dc246f49.chunk.css.map",
-    "static/js/2.ca1aac9f.chunk.js.LICENSE": "/e-commerce/static/js/2.ca1aac9f.chunk.js.LICENSE",
-    "static/media/logo.png": "/e-commerce/static/media/logo.096c21e6.png"
+    "main.css": "/shoes_Store/static/css/main.dc246f49.chunk.css",
+    "main.js": "/shoes_Store/static/js/main.cee7f901.chunk.js",
+    "main.js.map": "/shoes_Store/static/js/main.cee7f901.chunk.js.map",
+    "runtime-main.js": "/shoes_Store/static/js/runtime-main.a9893cbc.js",
+    "runtime-main.js.map": "/shoes_Store/static/js/runtime-main.a9893cbc.js.map",
+    "static/css/2.67123b20.chunk.css": "/shoes_Store/static/css/2.67123b20.chunk.css",
+    "static/js/2.a1dfc112.chunk.js": "/shoes_Store/static/js/2.a1dfc112.chunk.js",
+    "static/js/2.a1dfc112.chunk.js.map": "/shoes_Store/static/js/2.a1dfc112.chunk.js.map",
+    "index.html": "/shoes_Store/index.html",
+    "precache-manifest.b9e6eb338ec8712f5f00527e476070b7.js": "/shoes_Store/precache-manifest.b9e6eb338ec8712f5f00527e476070b7.js",
+    "service-worker.js": "/shoes_Store/service-worker.js",
+    "static/css/2.67123b20.chunk.css.map": "/shoes_Store/static/css/2.67123b20.chunk.css.map",
+    "static/css/main.dc246f49.chunk.css.map": "/shoes_Store/static/css/main.dc246f49.chunk.css.map",
+    "static/js/2.a1dfc112.chunk.js.LICENSE": "/shoes_Store/static/js/2.a1dfc112.chunk.js.LICENSE",
+    "static/media/logo.png": "/shoes_Store/static/media/logo.096c21e6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.53bcea4e.js",
+    "static/js/runtime-main.a9893cbc.js",
     "static/css/2.67123b20.chunk.css",
-    "static/js/2.ca1aac9f.chunk.js",
+    "static/js/2.a1dfc112.chunk.js",
     "static/css/main.dc246f49.chunk.css",
-    "static/js/main.b117590b.chunk.js"
+    "static/js/main.cee7f901.chunk.js"
   ]
 }
