@@ -10,8 +10,7 @@ const StoreProvider = props => {
 const [initialState, dispatch] = useReducer(Reducer,state);
 
         return(
-            <StoreContext.Provider 
-                    value={{...initialState, dispatch}}>
+            <StoreContext.Provider value={{...initialState, dispatch}}>
                 {props.children}
             </StoreContext.Provider>
         )
